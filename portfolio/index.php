@@ -3,18 +3,24 @@
     <?php include ("head.php") ?>
   </head>
 
-  <body>
     <header>
       <?php include ("nav.php") ?>
     </header>
 
-  <p>Bienvenue chez Wisna ! <br>
-    le handilab Granvillais ! </p>
+
+  <body>
+    <p>Bienvenue à Wisna<br>Le handilab Granvillais !<p>
+    <a href="Qui_sommes_nous.php"><img class ="logo_wisna" src="logowisna_definitif.png" alt="Notre beau logo !" ></a>
+    <h1> Le Destin de Wisna !</h1>
+
+  </body>
 
     <footer>
+      
+    <footer>
 
-    </footer>
-  </body>
+
+
 
 
 </html>

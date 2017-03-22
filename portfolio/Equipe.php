@@ -7,3 +7,6 @@
     <header>
       <?php include ("nav.php") ?>
     </header>
+
+    <footer>
+    </footer>

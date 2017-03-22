@@ -5,4 +5,5 @@
         <a  href="Equipe.php">Equipe</a>
         <a  href="Projets.php">Projets</a>
         <a  href="contact.php">contact</a>
+        <a  href="wiki.php">Wiki</a>
 </nav>
