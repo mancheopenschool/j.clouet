@@ -2,5 +2,4 @@
 <title>Wisna</title>
   <!-- styles -->
  <link href="https://fonts.googleapis.com/css?family=Cantarell" rel="stylesheet">
- <link rel="stylesheet" href="bootstrap_3_3_7/css/bootstrap.css">
  <link rel="stylesheet" href="styles.css">

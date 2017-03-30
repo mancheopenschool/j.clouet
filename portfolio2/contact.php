@@ -16,11 +16,10 @@
         <label for="mail"></label><input type="text" name="mail" placeholder="mail"/><br>
         <label for="phone"></label><input type="text" name="phone" placeholder="N° de téléphone"/><br>
         <label for="submit"></label><input type="submit" name="formulaire" placeholder="envoyer"/><br>
+
+
       </body>
 
-    <?php
-    
-     ?>
 
       <footer>
       </footer>
