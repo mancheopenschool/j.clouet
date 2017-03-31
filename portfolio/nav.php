@@ -1,8 +1,10 @@
-<nav class ="liens">
-        <a href="index.php">Accueil</a>
-        <a href="Qui_sommes_nous.php">Qui-sommes-nous?</a>
-        <a href="Equipe.php">Equipe</a>
-        <a href="Projets.php">Projets</a>
-        <a href="contact.php">Contact</a>
-        <a href="wiki.php">Wiki</a>
-</nav>
+<!--- content of navbar --->
+<div class="topnav" id="mytopnav">
+    <img src="logowisna_header.png">
+      <a href="#accueil">Accueil</a>
+      <a href="#quiSommesNous">Qui-sommes-nous?</a>
+      <a href="#Wisna">Wisna</a>
+      <a href="#projets">Projets</a>
+      <a href="#contact">Contact</a>
+      <a href="wiki.php">Wiki</a>
+</div>

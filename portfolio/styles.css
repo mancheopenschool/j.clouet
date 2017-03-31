@@ -1,62 +1,87 @@
 body {
-  margin: 0;
-}
-
-header {
-  background-color: #8a0e50;
-  height: 100px;
-  border: solid;
-   }
-
-nav {
-    width: 100%;  /* i'm assuming full width */
-    height: 60px; /* change it to desired width */
-    position: fixed;
-    display: inline-block;
-    overflow: hidden;
-    }
-
-.liens {
-    width: 95%;
-    color: white;
-    text-align:right;
-    display: inline-block;
-    vertical-align: top;
-    font-family: 'Cantarell', sans-serif;
-    font-size: 30px;
-    margin-right: 10px;
-    height: 60px;        /* if you want it to take the full height of the bar */
-    line-height: 90px;    /* if you want it vertically middle of the navbar */
-        }
-
-.logo {
-    display: inline-block;
-    vertical-align: top;
-    width: 30px;
-    height: 30px;
-    margin-left: 5px;
-    margin-right: 10px;
-    margin-top: 0px;    /* if you want it vertically middle of the navbar. */
-    }
-
-  .logo_wisna {
-      vertical-align: bottom;
-      position: fixed;
-      width: 19%;
-    }
-
-h1 {
-  vertical-align: top;
+  margin: 0 auto;
   font-family: 'Cantarell', sans-serif;
-  font-size: 30px;
-  margin-left: 5px;
+
+}
+/* NAVBAR */
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+    height: 110px;
+    margin-top: -20px;
 }
 
-footer{
-background: #008fa2;
-position:absolute;
-bottom:0;
-width:100%;
-padding-top:50px;
-height:30px;
+/* Style the links inside the navigation bar */
+.topnav a {
+    display: inline-block;
+    color: #1a237e;
+    text-align: center;
+    padding: 24px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Cantarell', sans-serif;
+    text-transform: none;
 }
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #f67c01;
+    color: black;
+    display: inline-block;
+}
+/* Change logo place on the header*/
+.topnav img {
+  padding: 5px;
+}
+
+/* End of Navbar CSS */
+
+/* Website body */
+h1  {
+  font-size: 50px;
+  color: #1a237e;
+  text-align: center;
+}
+
+.slogan {
+  margin-top: -50px;
+}
+.bouton_entrer {
+  text-align: center;
+}
+
+.logo_wisna {
+  width: 100%;
+  text-align: center;
+  margin-top: -60px;
+}
+
+.triforce {
+  text-align: center;
+  width: 100%;
+}
+/* Project part */
+table {
+  width: 99%;
+  border: 3px;
+  }
+
+th {
+  border-style: solid;
+  text-align: justify;
+  font-family: 'Cantarell', sans-serif;
+}
+
+
+td {
+  border-style: solid;
+  text-align: center;
+}
+/* formulaire de contact */
+label {
+  width: 150px;
+  display: block;
+  float: left;
+}
+
+/* end of project part */
